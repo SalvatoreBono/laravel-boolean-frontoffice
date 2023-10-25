@@ -6,7 +6,7 @@
 
 <template>
   <div class="wrapper">
-    <nav class="nav-bg mb-2 overflow-auto">
+    <nav class="nav-bg mb-2">
       <div class="container">
         <div class="py-3 d-flex align-items-center justify-content-between">
           <RouterLink  :to="{name: 'home'}" class="text-decoration-none logo">Cocktail Bar</RouterLink>
@@ -44,7 +44,7 @@
   }
 
   body{
-    width: 100vw;
+    width: 99vw;
     background-color: #0d0d0d;
   }
 </style>
