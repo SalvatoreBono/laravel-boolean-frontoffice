@@ -84,6 +84,16 @@ input[type=text]{
   border: 0;
   border-radius: 0;
   border-bottom: 1px solid white;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 0.24px;
+}
+
+input[type=text]:focus-visible{
+  outline: 0;
 }
 
 input[type=email]{
@@ -92,6 +102,26 @@ input[type=email]{
   border: 0;
   border-radius: 0;
   border-bottom: 1px solid white;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 0.24px;
+}
+
+input[type=email]:focus-visible{
+  outline: 0;
+}
+
+.form-control{
+  padding: 8px 0px;
+}
+
+.form-control:focus{
+  color: white;
+  box-shadow: none;
+  outline: 0;
 }
 
 textarea{
@@ -99,6 +129,19 @@ textarea{
   border: 0;
   border-radius: 0;
   border-bottom: 1px solid white;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: white;
+  font-size: 24px;
+}
+
+textarea:focus{
+  background-color: transparent;
+}
+
+textarea:focus-visible{
+  outline: 0;
 }
 
 .form-label{
@@ -119,6 +162,7 @@ textarea{
   padding: 16px 32px;
   color: black;
   text-transform: uppercase;
+  border: 0;
 }
 
 .contacts{
@@ -126,7 +170,7 @@ textarea{
   font-weight: 400;
   color: white;
   font-size: 56px;
-  margin-top: -5px;
+  line-height: 100%;
 }
 
 .container-fluid {

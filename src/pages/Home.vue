@@ -141,10 +141,6 @@
   }
 
   .col-4{
-    margin-bottom: 18px;
-  }
-
-  body{
-    background-color: #0d0d0d;
+    margin-bottom: 30px;
   }
 </style>
