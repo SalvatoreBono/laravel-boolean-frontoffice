@@ -19,7 +19,7 @@
           <div class="row">
             <div class="col-4">
               <div class="storyColumn">
-                <div class="storyYear">2000</div>
+                <div class="storyYear">2010</div>
 
                 <div class="d-flex align-items-center">
                   <div class="circle"></div>
@@ -34,7 +34,7 @@
 
             <div class="col-4">
               <div class="storyColumn">
-                <div class="storyYear">2000</div>
+                <div class="storyYear">2017</div>
 
                 <div class="d-flex align-items-center">
                   <div class="circle"></div>
@@ -49,7 +49,7 @@
 
             <div class="col-4">
               <div class="storyColumn">
-                <div class="storyYear">2000</div>
+                <div class="storyYear">2022</div>
 
                 <div class="d-flex align-items-center">
                   <div class="circle"></div>

@@ -66,14 +66,16 @@ export default {
                 v-model="formContact.message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-primary rounded-pill customBtn">Invia</button>
+
+            <div class="d-flex align-items-center gap-4">
+              <button type="submit" class="btn btn-primary rounded-pill customBtn">Invia</button>
+              <div v-if="dataSendSuccess" class="responseMsg">{{ dataSendSuccess }}</div>
+            </div>
+            
           </form>
         </div>
       </div>
     </div>
-    
-    
-    <div v-if="dataSendSuccess">{{ dataSendSuccess }}</div>
   </div>
 </template>
 
@@ -175,5 +177,12 @@ textarea:focus-visible{
 
 .container-fluid {
   margin-top: 80px;
+}
+
+.responseMsg{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #D1B875;
+  font-size: 16px;
 }
 </style>

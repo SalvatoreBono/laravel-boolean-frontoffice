@@ -70,8 +70,9 @@
               <option value="0">Analcolici</option>       
           </select>
 
+          <button class="btn btn-primary filterBtn ms-2" type="submit">Filtra</button>
           <!-- <div class="mt-3 d-flex gap-2">
-            <button class="btn btn-primary" type="submit">Cerca</button>
+            <button class="btn btn-primary filterBtn" type="submit">Cerca</button>
             <button class="btn btn-danger" type="reset">Svuota</button>
           </div> -->
           </form>
@@ -121,6 +122,21 @@
     border-radius: 50px;
     color: #757575;
     width: 30%;
+  }
+
+  .filterBtn{
+    background-color: #D1B875;
+    /* border: 1px solid white; */
+    border: 0;
+    border-radius: 50px;
+    color: #757575;
+    color: black;
+    width: 15%;
+  }
+
+  .filterBtn:active{
+    border-color: transparent;
+    background-color: white;
   }
 
   .formContainer{
