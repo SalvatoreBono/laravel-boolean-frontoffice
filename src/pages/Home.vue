@@ -51,8 +51,6 @@
 </script>
 
 <template>
-    
-
     <div class="container">
 
       <div class="titleSection d-flex align-items-center justify-content-between">
@@ -144,5 +142,9 @@
 
   .col-4{
     margin-bottom: 18px;
+  }
+
+  body{
+    background-color: #0d0d0d;
   }
 </style>

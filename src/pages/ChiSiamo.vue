@@ -5,6 +5,8 @@
 </script>
 
 <template>
+    <img src="/imageBar2.png" alt="" class="chiSiamoBG">
+
     <div class="container">
         <div class="citazione">
           <h1 class="citText">“La realtà e la fantasia spesso si confondono come un cocktail di cui non riesci a distinguere i sapori.”</h1>
@@ -141,9 +143,12 @@
   padding-right: 16px;
 }
 
-body{
-  background-image: url("/imageBar2.png");
-  object-fit: cover;
+.chiSiamoBG{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
-
 </style>
